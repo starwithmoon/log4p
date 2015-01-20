@@ -16,7 +16,7 @@ out put like this:
 
 ----------------------------------
 Config Example:
-'''log4j2.xml
+"log4j2.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration monitorInterval="60">
     <Appenders>
@@ -35,8 +35,7 @@ Config Example:
             <AppenderRef ref="A1"/>
         </Root>
     </Loggers>
-</Configuration>
-'''
+</Configuration>"
 
 config ={
     'monitorInterval' : 10,
